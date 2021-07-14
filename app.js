@@ -10,8 +10,6 @@ var character = prompt("would you rather be: \n a-Fast and stealthy \n b-Strong 
 if(character == 'a')
 alert("so you are an assassin as i can see")
 
-
-
 else if (character == 'b'){
 alert("so ur a fighter even though u dont look like one")
 }
@@ -19,5 +17,5 @@ alert("so ur a fighter even though u dont look like one")
 else if (character == 'c'){
 alert("Healer huh? it would be nice if someone finally healed my back pain")
 }
- document.write(enjoy ur stay traveler)
+ document.write("enjoy ur stay traveler")
 
