@@ -1,0 +1,35 @@
+#title {
+  font-family:Serif;
+  color:azure;
+}
+header{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: Teal
+}
+
+main{
+  padding-bottom: 10px;
+  padding-top: 20px;
+  text-align: center;
+    background-image: url(https://i.pinimg.com/originals/40/ac/ea/40acea58889739941af9f6c34b153875.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  /* background-color:   rgb(208, 103, 103); */
+  
+}
+div{ display: inline-block;}
+
+
+footer{
+  
+  height: 100px;
+  padding: 20px;
+  padding-left: 100px;
+  background-color: SlateGray 
+  
+}
+body{
+  margin: 0px
+}
