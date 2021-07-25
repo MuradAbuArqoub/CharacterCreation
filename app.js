@@ -51,41 +51,43 @@ else {
 // .............................................
 var weapons = prompt("choose a weapon of those: \n 1-sword \n 2-daggers \n 3-wizard staff \n 4-moos garin 3'azal sabe3 6agat")
 
-while(weapons != "sowrd" && weapons != "daggers" && weapons != "wizard staff" && weapons != "moos garin 3'azal sabe3 6agat" && ){
+while(weapons != "sowrd" && weapons != "daggers" && weapons != "wizard staff" && weapons != "moos garin 3'azal sabe3 6agat" ){
 
 var weapons = prompt("choose a weapon of those: \n 1-sword \n 2-daggers \n 3-wizard staff \n 4-moos garin 3'azal sabe3 6agat")
 
 }
 
-var numberOfPics = prompt("how many time u would like to see it?")
 
-while(numberOfPic >10 ){
-  numberOfPic = prompt("please enter number less than 10!")
+console.log (numberOfPics);
+var numberOfPics = prompt("how many time u would like to see it?")
+while(numberOfPics > 10 ){
+    numberOfPics = prompt("please enter number less than 10!")
 }
 
-  if (weapons == "sowrd"){
+  if (weapons == "sword"){
     
     for(var i = 0; i< numberOfPics; i++)
 
-{document.write(
-  "<div>" + "<h3>" + weapons+"</h3>"
-+ "<img  src='https://pngimg.com/uploads/sword/sword_PNG5525.png' width='100' height='100'     />" + "</div>")}
+      {document.write(
+      "<div>" + "<h3>" + weapons+"</h3>"
+    + "<img  src='https://pngimg.com/uploads/sword/sword_PNG5525.png' width='100' height='100'     />" + "</div>")}
   }
   
   else if (weapons =="daggers"){
 
-for(var i = 0 ; i <numberOfPic;i++)
+  for(var i = 0 ; i <numberOfPics;i++)
 
-{document.write(
-  "<div>" + "<h3>" + weapons+"</h3>"
-+ "<img  src='https://e7.pngegg.com/pngimages/783/633/png-clipart-dagger-dagger-thumbnail.png' width='100' height='100'     />" + "</div>")}
-}
-else if(weapons =="wizard staff"){
-  for(var i = 0 ; i <numberOfPic;i++)
-{document.write(
-  "<div>" + "<h3>" + weapons+"</h3>"
-+ "<img  src='https://toppng.com/uploads/preview/magic-staff-11563057630zvk5d15ol5.png' width='100' height='100'     />" + "</div>")}
-}
+  {document.write(
+    "<div>" + "<h3>" + weapons+"</h3>"
+  + "<img  src='https://e7.pngegg.com/pngimages/783/633/png-clipart-dagger-dagger-thumbnail.png' width='100' height='100'     />" + "</div>")}
+  }
+
+  else if(weapons =="wizard staff"){
+    for(var i = 0 ; i <numberOfPics;i++)
+  {document.write(
+    "<div>" + "<h3>" + weapons+"</h3>"
+  + "<img  src='https://toppng.com/uploads/preview/magic-staff-11563057630zvk5d15ol5.png' width='100' height='100'     />" + "</div>")}
+  }
 
  document.write("enjoy ur stay traveler")
 
